@@ -1,0 +1,96 @@
+###############################
+# macOS
+###############################
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+###############################
+# VS Code
+###############################
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+###############################
+# Python
+###############################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+*.log
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+###############################
+# JMeter
+###############################
+/jmeter/bin/*.log
+/jmeter/bin/*.tmp
+*.jtl
+*.csv
+*.bak
+*.sav
+*.tmp
+
+###############################
+# Node / Frontend (на случай будущих скриптов)
+###############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tsbuildinfo
+
+###############################
+# Git / Merge tools
+###############################
+*.orig
+*.rej
+
+###############################
+# OS generated files
+###############################
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+###############################
+# Archives
+###############################
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+
+###############################
+# JetBrains IDEs (если когда-то откроешь в PyCharm/WebStorm)
+###############################
+.idea/
+*.iml
+
+###############################
+# Misc
+###############################
+*.swp
+*.swo
+*.tmp
